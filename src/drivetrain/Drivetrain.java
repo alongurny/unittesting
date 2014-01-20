@@ -74,7 +74,7 @@ public class Drivetrain {
         rightGearbox.getEncoder().setRate(speed);        
     }
 
-    /*public void setLeftSpeedFactor(double factor) {
+    public void setLeftSpeedFactor(double factor) {
         leftGearbox.setSpeedFactor(factor);
     }
 
@@ -95,7 +95,7 @@ public class Drivetrain {
             setRightSpeedFactor(getLeftSpeed() / getRightSpeed() * wantedRightSpeed / wantedLeftSpeed);
             setLeftSpeedFactor(1);
         }
-    }*/
+    }
 
     public double getLeftSpeed() {
         return leftGearbox.getVelocity();

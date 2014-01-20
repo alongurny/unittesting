@@ -442,7 +442,7 @@ public class Encoder {
      * @return some factor
      */
     public double getDecodingScaleFactor() {
-        return constant * decodingScaleFactor;
+        return decodingScaleFactor;
     }
 
     /**
